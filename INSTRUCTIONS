@@ -5,6 +5,8 @@ https://www.reddit.com/r/coreboot/comments/yo0cqb/coreboot_installation_with_tia
 get previous config from the image in the comment above and modify it to include
 the HAVE_CMOS_DEFAULT, HAVE_OPTION_TABLE, USE_OPTION_TABLE all to yes
 
+also full screen for edk2 and cbmem logging
+
 rm -rf build
 
 make clean
